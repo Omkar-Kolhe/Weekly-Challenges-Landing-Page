@@ -6,16 +6,14 @@ import { Playfair_Display } from "next/font/google";
 const playfair = Playfair_Display({ subsets: ["latin"] });
 
 const PRIZES = [
-  { rank: "02", title: "2nd Place", color: "#C0C0C0", desc: "Exclusive CodeCell Swag, Certificate of Excellence, and Premium Unlocks." },
-  { rank: "01", title: "Grand Champion", color: "#eab308", desc: "The Ultimate Glory. Premium features unlock, Official Recognition, and exclusive Swag." },
-  { rank: "03", title: "3rd Place", color: "#CD7F32", desc: "Certificate of Excellence, CodeCell Swag, and platform perks." },
+  { rank: "02", title: "2nd Place", color: "#C0C0C0", desc: "Certificate of Excellence, and Premium Unlocks." },
+  { rank: "01", title: "Grand Champion", color: "#eab308", desc: "The Ultimate Glory. Premium features unlock, Official Recognition." },
+  { rank: "03", title: "3rd Place", color: "#CD7F32", desc: "Certificate of Excellence, and platform perks." },
 ];
 
 const PERKS = [
-  "Certificates for Top 10",
-  "CodeCell Official Recognition",
+  "Certificates for Top Participants",
   "Exclusive Internships",
-  "Special Profile Badges"
 ];
 
 export function Prizes() {

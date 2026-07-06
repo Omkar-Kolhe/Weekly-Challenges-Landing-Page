@@ -47,9 +47,14 @@ export function FinalCTA() {
           transition={{ delay: 0.2 }}
           className="relative z-10 flex flex-col sm:flex-row gap-6 mt-12 md:mt-0 md:ml-10"
         >
-          <a href="#discord" target="_blank"  className="px-8 py-4 border border-[#eab308]/30 bg-[#eab308]/5 text-[#eab308] hover:bg-[#eab308]/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap">
-            [ JOIN DISCORD ]
-          </a>
+          <a
+  href="https://discord.gg/2p9JYTwbd"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="px-8 py-4 border border-[#eab308]/30 bg-[#eab308]/5 text-[#eab308] hover:bg-[#eab308]/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap"
+>
+  [ JOIN DISCORD ]
+</a>
           <a href="https://www.reddit.com/r/TSECCodeCell/" target="_blank" className="px-8 py-4 border border-white/20 bg-white/5 text-white/90 hover:bg-white/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap">
             [ REDDIT ]
           </a>

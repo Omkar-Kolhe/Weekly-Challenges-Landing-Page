@@ -9,14 +9,14 @@ import { MotionValue, useMotionValueEvent } from "framer-motion";
 import { motion, AnimatePresence } from "framer-motion";
 
 export const TIMELINE_DATA = [
-  { week: 1, theme: "The Opening", piece: "♙", rank: "Pawn", desc: "Arrays & Strings. Establishing control of the center.", difficulty: "Easy" },
-  { week: 2, theme: "Knight's Tour", piece: "♘", rank: "Knight", desc: "Hashing & Two Pointers. Jumping over obstacles.", difficulty: "Easy/Medium" },
-  { week: 3, theme: "Bishop's Diagonal", piece: "♗", rank: "Bishop", desc: "Binary Search. Striking from a distance.", difficulty: "Medium" },
-  { week: 4, theme: "Rook's File", piece: "♖", rank: "Rook", desc: "Stacks & Queues. Controlling open lines.", difficulty: "Medium" },
-  { week: 5, theme: "Queen's Gambit", piece: "♕", rank: "Queen", desc: "Dynamic Programming. Sacrificing for positional advantage.", difficulty: "Hard" },
-  { week: 6, theme: "Castle Defense", piece: "♖", rank: "Castle", desc: "Trees & Graphs. Building an impenetrable fortress.", difficulty: "Hard" },
-  { week: 7, theme: "Checkmate Strategy", piece: "♔", rank: "King", desc: "Advanced Graphs & Tries. Cornering the king.", difficulty: "Expert" },
-  { week: 8, theme: "Grandmaster", piece: "♛", rank: "Grandmaster", desc: "Competitive Programming Battle. The ultimate test.", difficulty: "Master" },
+  { week: 1, theme: "The Opening", piece: "♙", rank: "Pawn", desc: "", difficulty: "Easy" },
+  { week: 2, theme: "Knight's Tour", piece: "♘", rank: "Knight", desc: "", difficulty: "Easy/Medium" },
+  { week: 3, theme: "Bishop's Diagonal", piece: "♗", rank: "Bishop", desc: "", difficulty: "Medium" },
+  { week: 4, theme: "Rook's File", piece: "♖", rank: "Rook", desc: "", difficulty: "Medium" },
+  { week: 5, theme: "Queen's Gambit", piece: "♕", rank: "Queen", desc: "", difficulty: "Hard" },
+  { week: 6, theme: "Castle Defense", piece: "♖", rank: "Castle", desc: "", difficulty: "Hard" },
+  { week: 7, theme: "Checkmate Strategy", piece: "♔", rank: "King", desc: "", difficulty: "Expert" },
+  { week: 8, theme: "Grandmaster", piece: "♛", rank: "Grandmaster", desc: "", difficulty: "Master" },
 ];
 
 function StandardBoard() {

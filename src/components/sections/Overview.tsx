@@ -10,15 +10,15 @@ const FEATURES = [
     icon: "♟",
     subtitle: "PAWN",
     title: "Weekly DSA Problems",
-    description: "Each week drops 5 chess-themed problems spanning Easy → Hard. Problems reset every Sunday at midnight. Your solutions are judged on runtime, memory, and correctness.",
-    badge: "5 Problems / Week",
+    description: "Each week drops CP/DSA problems spanning Easy → Hard. Problems reset every Sunday. Your solutions are judged on runtime, memory, and correctness.",
+    badge: "Problems / Week",
     highlightIcon: false
   },
   {
     icon: "♞",
     subtitle: "KNIGHT",
     title: "N-Queens Narrative",
-    description: "This isn't a standard contest. You're placing queens on a live 8x8 board — each week adds a constraint. Miss a placement and lose path bonus points. Survive all 8 weeks to claim checkmate.",
+    description: "This isn't a standard contest. You're challenged — each week with new constraint. Miss a placement and lose path bonus points. Survive all 8 weeks to claim checkmate.",
     badge: "Story-Driven",
     highlightIcon: true
   },
@@ -26,7 +26,7 @@ const FEATURES = [
     icon: "♛",
     subtitle: "QUEEN",
     title: "Live Leaderboard",
-    description: "Rankings update in real-time after each submission. Season score persists across all 8 weeks. Weekly rank resets every Sunday — fight for both crowns: the sprint and the season.",
+    description: "Rankings update in real-time after submission. Season score persists across all 8 weeks. Weekly rank resets every Sunday — fight for both crowns: the sprint and the season.",
     badge: "Real-Time Rankings",
     highlightIcon: true
   },
@@ -34,7 +34,7 @@ const FEATURES = [
     icon: "♜",
     subtitle: "ROOK",
     title: "Editorial Deep-Dives",
-    description: "Every problem ships with a full editorial 48 hours after the week closes. Annotated code, complexity analysis, the two approaches that almost worked — and why they failed.",
+    description: "Every problem ships with a full editorial after the week closes. Annotated code, complexity analysis, the two approaches that almost worked — and why they failed.",
     badge: "Post-Week Analysis",
     highlightIcon: false
   },
@@ -42,16 +42,16 @@ const FEATURES = [
     icon: "♝",
     subtitle: "BISHOP",
     title: "Community & Discord",
-    description: "900+ coders across 37 colleges. Channels split by problem difficulty and college. Weekly study groups, blind hints, and post-contest strategy threads.",
-    badge: "37 Colleges",
+    description: "Many coders across colleges. Channels split by problem difficulty and college. Weekly study groups, blind hints, and post-contest strategy threads.",
+    badge: "Many Colleges",
     highlightIcon: true
   },
   {
     icon: "♚",
     subtitle: "KING",
     title: "Certificates & Prizes",
-    description: "Top 10 season finalists win prizes from the prize pool. Every participant who clears 6+ weeks earns a certificate of excellence. No participation trophy — earn it.",
-    badge: "₹50K Prize Pool",
+    description: "Top season finalists win prizes from the prize pool. Top participants who clears 8 weeks earns a certificate of excellence. No participation reward — earn it.",
+    badge: "Cash Prizes",
     highlightIcon: true
   }
 ];

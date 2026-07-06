@@ -34,7 +34,7 @@ export function FinalCTA() {
             transition={{ delay: 0.1 }}
             className={`text-xl md:text-3xl lg:text-4xl leading-[1.4] text-white/95 ${playfair.className}`}
           >
-            Across 37 colleges, the board is shared.<br />
+            Across all colleges, the board is shared.<br />
             Trade ideas the moment editorials<br className="hidden md:block" /> drop.
           </motion.h2>
         </div>
@@ -47,10 +47,10 @@ export function FinalCTA() {
           transition={{ delay: 0.2 }}
           className="relative z-10 flex flex-col sm:flex-row gap-6 mt-12 md:mt-0 md:ml-10"
         >
-          <a href="#discord" className="px-8 py-4 border border-[#eab308]/30 bg-[#eab308]/5 text-[#eab308] hover:bg-[#eab308]/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap">
+          <a href="#discord" target="_blank"  className="px-8 py-4 border border-[#eab308]/30 bg-[#eab308]/5 text-[#eab308] hover:bg-[#eab308]/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap">
             [ JOIN DISCORD ]
           </a>
-          <a href="#reddit" className="px-8 py-4 border border-white/20 bg-white/5 text-white/90 hover:bg-white/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap">
+          <a href="https://www.reddit.com/r/TSECCodeCell/" target="_blank" className="px-8 py-4 border border-white/20 bg-white/5 text-white/90 hover:bg-white/10 transition-all font-mono font-bold text-xs md:text-sm tracking-[0.2em] flex items-center justify-center whitespace-nowrap">
             [ REDDIT ]
           </a>
         </motion.div>
